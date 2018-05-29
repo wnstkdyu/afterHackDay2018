@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D4364B920AD604000A3D75A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4364B820AD604000A3D75A /* AppDelegate.swift */; };
+		7D4364BE20AD604000A3D75A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D4364BC20AD604000A3D75A /* Main.storyboard */; };
+		7D4364C020AD604300A3D75A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D4364BF20AD604300A3D75A /* Assets.xcassets */; };
+		7D4364C320AD604300A3D75A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D4364C120AD604300A3D75A /* LaunchScreen.storyboard */; };
+		7D4364CE20AD64B800A3D75A /* VideoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4364CD20AD64B800A3D75A /* VideoListViewController.swift */; };
+		7D4364D020AD64C900A3D75A /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4364CF20AD64C900A3D75A /* PlayerViewController.swift */; };
+		7D4364D220AD64D400A3D75A /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4364D120AD64D400A3D75A /* VideoModel.swift */; };
+		7D4364D420AD654F00A3D75A /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4364D320AD654F00A3D75A /* PlayerView.swift */; };
+		7D4364D720AD686900A3D75A /* water.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7D4364D520AD685C00A3D75A /* water.mp4 */; };
+		7D4364D820AD686900A3D75A /* rain.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7D4364D620AD686900A3D75A /* rain.mp4 */; };
+		7D88E95820ADD4EE00250BCB /* ControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D88E95720ADD4EE00250BCB /* ControlManager.swift */; };
+		7D88E95A20AE009100250BCB /* PlayerNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D88E95920AE009100250BCB /* PlayerNavigationController.swift */; };
+		7DE7C19420AE472400D64E28 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE7C19320AE472400D64E28 /* Constants.swift */; };
+		7DE7C19620AE632A00D64E28 /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE7C19520AE632A00D64E28 /* PlayButton.swift */; };
+		7DF5F5FC20AD72420051C16E /* VideoListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF5F5FB20AD72420051C16E /* VideoListCell.swift */; };
+		7DF5F5FE20AD779B0051C16E /* PlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF5F5FD20AD779B0051C16E /* PlayerManager.swift */; };
+		7DF5F60020AD9C860051C16E /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF5F5FF20AD9C860051C16E /* Enum.swift */; };
+		7DF5F60220AD9CE40051C16E /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF5F60120AD9CE40051C16E /* Extension.swift */; };
+		7DF5F60420AD9D590051C16E /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF5F60320AD9D590051C16E /* ControlView.swift */; };
+		7DFF35C120B00077004903F8 /* SystemControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFF35C020B00077004903F8 /* SystemControlImageView.swift */; };
+		7DFF35C320B019A4004903F8 /* NotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFF35C220B019A4004903F8 /* NotificationName.swift */; };
+		8871D3B6B2360CFD081A40AE /* Pods_JSGestureVideoPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58985513BBCA7292960834D /* Pods_JSGestureVideoPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C0C52C5E50043CDC63ABCD1 /* Pods-JSGestureVideoPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSGestureVideoPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSGestureVideoPlayer/Pods-JSGestureVideoPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		7D4364B520AD604000A3D75A /* JSGestureVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSGestureVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D4364B820AD604000A3D75A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D4364BD20AD604000A3D75A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D4364BF20AD604300A3D75A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D4364C220AD604300A3D75A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D4364C420AD604300A3D75A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D4364CD20AD64B800A3D75A /* VideoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListViewController.swift; sourceTree = "<group>"; };
+		7D4364CF20AD64C900A3D75A /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		7D4364D120AD64D400A3D75A /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		7D4364D320AD654F00A3D75A /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		7D4364D520AD685C00A3D75A /* water.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = water.mp4; sourceTree = "<group>"; };
+		7D4364D620AD686900A3D75A /* rain.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rain.mp4; sourceTree = "<group>"; };
+		7D88E95720ADD4EE00250BCB /* ControlManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlManager.swift; sourceTree = "<group>"; };
+		7D88E95920AE009100250BCB /* PlayerNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerNavigationController.swift; sourceTree = "<group>"; };
+		7DE7C19320AE472400D64E28 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7DE7C19520AE632A00D64E28 /* PlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
+		7DF5F5FB20AD72420051C16E /* VideoListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListCell.swift; sourceTree = "<group>"; };
+		7DF5F5FD20AD779B0051C16E /* PlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerManager.swift; sourceTree = "<group>"; };
+		7DF5F5FF20AD9C860051C16E /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		7DF5F60120AD9CE40051C16E /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		7DF5F60320AD9D590051C16E /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		7DFF35C020B00077004903F8 /* SystemControlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemControlImageView.swift; sourceTree = "<group>"; };
+		7DFF35C220B019A4004903F8 /* NotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationName.swift; sourceTree = "<group>"; };
+		BF6CE92328B8766A73CF6305 /* Pods-JSGestureVideoPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSGestureVideoPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSGestureVideoPlayer/Pods-JSGestureVideoPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		C58985513BBCA7292960834D /* Pods_JSGestureVideoPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSGestureVideoPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D4364B220AD604000A3D75A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8871D3B6B2360CFD081A40AE /* Pods_JSGestureVideoPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D4364AC20AD604000A3D75A = {
+			isa = PBXGroup;
+			children = (
+				7D4364B720AD604000A3D75A /* JSGestureVideoPlayer */,
+				7D4364B620AD604000A3D75A /* Products */,
+				C418EDE027A4B33215257C49 /* Pods */,
+				D57E595640A14D81E2D49867 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7D4364B620AD604000A3D75A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D4364B520AD604000A3D75A /* JSGestureVideoPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D4364B720AD604000A3D75A /* JSGestureVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				7D4364B820AD604000A3D75A /* AppDelegate.swift */,
+				7D4364CA20AD648000A3D75A /* Model */,
+				7D4364CB20AD648B00A3D75A /* View */,
+				7D4364CC20AD649B00A3D75A /* Controller */,
+				7D4364D920AD689700A3D75A /* Local Videos */,
+				7D4364DA20AD693300A3D75A /* Helper */,
+				7D4364BC20AD604000A3D75A /* Main.storyboard */,
+				7D4364BF20AD604300A3D75A /* Assets.xcassets */,
+				7D4364C120AD604300A3D75A /* LaunchScreen.storyboard */,
+				7D4364C420AD604300A3D75A /* Info.plist */,
+			);
+			path = JSGestureVideoPlayer;
+			sourceTree = "<group>";
+		};
+		7D4364CA20AD648000A3D75A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7D4364D120AD64D400A3D75A /* VideoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7D4364CB20AD648B00A3D75A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7D4364D320AD654F00A3D75A /* PlayerView.swift */,
+				7DF5F60320AD9D590051C16E /* ControlView.swift */,
+				7DF5F5FB20AD72420051C16E /* VideoListCell.swift */,
+				7DE7C19520AE632A00D64E28 /* PlayButton.swift */,
+				7DFF35C020B00077004903F8 /* SystemControlImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7D4364CC20AD649B00A3D75A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7D88E95920AE009100250BCB /* PlayerNavigationController.swift */,
+				7D4364CD20AD64B800A3D75A /* VideoListViewController.swift */,
+				7D4364CF20AD64C900A3D75A /* PlayerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7D4364D920AD689700A3D75A /* Local Videos */ = {
+			isa = PBXGroup;
+			children = (
+				7D4364D620AD686900A3D75A /* rain.mp4 */,
+				7D4364D520AD685C00A3D75A /* water.mp4 */,
+			);
+			path = "Local Videos";
+			sourceTree = "<group>";
+		};
+		7D4364DA20AD693300A3D75A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				7DF5F5FD20AD779B0051C16E /* PlayerManager.swift */,
+				7D88E95720ADD4EE00250BCB /* ControlManager.swift */,
+				7DF5F5FF20AD9C860051C16E /* Enum.swift */,
+				7DF5F60120AD9CE40051C16E /* Extension.swift */,
+				7DE7C19320AE472400D64E28 /* Constants.swift */,
+				7DFF35C220B019A4004903F8 /* NotificationName.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		C418EDE027A4B33215257C49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF6CE92328B8766A73CF6305 /* Pods-JSGestureVideoPlayer.debug.xcconfig */,
+				7C0C52C5E50043CDC63ABCD1 /* Pods-JSGestureVideoPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D57E595640A14D81E2D49867 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C58985513BBCA7292960834D /* Pods_JSGestureVideoPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D4364B420AD604000A3D75A /* JSGestureVideoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D4364C720AD604300A3D75A /* Build configuration list for PBXNativeTarget "JSGestureVideoPlayer" */;
+			buildPhases = (
+				C1680B03F2204F07440B3555 /* [CP] Check Pods Manifest.lock */,
+				7D4364B120AD604000A3D75A /* Sources */,
+				7D4364B220AD604000A3D75A /* Frameworks */,
+				7D4364B320AD604000A3D75A /* Resources */,
+				026AD44E8554F963581F86C7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSGestureVideoPlayer;
+			productName = JSGestureVideoPlayer;
+			productReference = 7D4364B520AD604000A3D75A /* JSGestureVideoPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D4364AD20AD604000A3D75A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Alpaca;
+				TargetAttributes = {
+					7D4364B420AD604000A3D75A = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 7D4364B020AD604000A3D75A /* Build configuration list for PBXProject "JSGestureVideoPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D4364AC20AD604000A3D75A;
+			productRefGroup = 7D4364B620AD604000A3D75A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D4364B420AD604000A3D75A /* JSGestureVideoPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D4364B320AD604000A3D75A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4364C320AD604300A3D75A /* LaunchScreen.storyboard in Resources */,
+				7D4364C020AD604300A3D75A /* Assets.xcassets in Resources */,
+				7D4364BE20AD604000A3D75A /* Main.storyboard in Resources */,
+				7D4364D820AD686900A3D75A /* rain.mp4 in Resources */,
+				7D4364D720AD686900A3D75A /* water.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		026AD44E8554F963581F86C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JSGestureVideoPlayer/Pods-JSGestureVideoPlayer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSGestureVideoPlayer/Pods-JSGestureVideoPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1680B03F2204F07440B3555 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JSGestureVideoPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D4364B120AD604000A3D75A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D88E95A20AE009100250BCB /* PlayerNavigationController.swift in Sources */,
+				7DE7C19620AE632A00D64E28 /* PlayButton.swift in Sources */,
+				7DF5F60220AD9CE40051C16E /* Extension.swift in Sources */,
+				7D4364CE20AD64B800A3D75A /* VideoListViewController.swift in Sources */,
+				7D4364D020AD64C900A3D75A /* PlayerViewController.swift in Sources */,
+				7D88E95820ADD4EE00250BCB /* ControlManager.swift in Sources */,
+				7DF5F60020AD9C860051C16E /* Enum.swift in Sources */,
+				7DF5F60420AD9D590051C16E /* ControlView.swift in Sources */,
+				7DE7C19420AE472400D64E28 /* Constants.swift in Sources */,
+				7DFF35C320B019A4004903F8 /* NotificationName.swift in Sources */,
+				7D4364D420AD654F00A3D75A /* PlayerView.swift in Sources */,
+				7DF5F5FE20AD779B0051C16E /* PlayerManager.swift in Sources */,
+				7D4364D220AD64D400A3D75A /* VideoModel.swift in Sources */,
+				7D4364B920AD604000A3D75A /* AppDelegate.swift in Sources */,
+				7DF5F5FC20AD72420051C16E /* VideoListCell.swift in Sources */,
+				7DFF35C120B00077004903F8 /* SystemControlImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D4364BC20AD604000A3D75A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D4364BD20AD604000A3D75A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D4364C120AD604300A3D75A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D4364C220AD604300A3D75A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D4364C520AD604300A3D75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D4364C620AD604300A3D75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D4364C820AD604300A3D75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF6CE92328B8766A73CF6305 /* Pods-JSGestureVideoPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJV2E4572L;
+				INFOPLIST_FILE = JSGestureVideoPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alpaca.JSGestureVideoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D4364C920AD604300A3D75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C0C52C5E50043CDC63ABCD1 /* Pods-JSGestureVideoPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJV2E4572L;
+				INFOPLIST_FILE = JSGestureVideoPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alpaca.JSGestureVideoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D4364B020AD604000A3D75A /* Build configuration list for PBXProject "JSGestureVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4364C520AD604300A3D75A /* Debug */,
+				7D4364C620AD604300A3D75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D4364C720AD604300A3D75A /* Build configuration list for PBXNativeTarget "JSGestureVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4364C820AD604300A3D75A /* Debug */,
+				7D4364C920AD604300A3D75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D4364AD20AD604000A3D75A /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_JSGestureVideoPlayer {
+  umbrella header "Pods-JSGestureVideoPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}
